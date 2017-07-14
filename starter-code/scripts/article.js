@@ -19,7 +19,7 @@ Article.prototype.toHtml = function() {
   var comp = Handlebars.compile(template);
 
 
-
+//thisis funa;sldjfl;kakljsd
 
   // REVIEW: If your template will use properties that aren't on the object yet, add them.
   //   Since your template can't hold any JS logic, we need to execute the logic here.
