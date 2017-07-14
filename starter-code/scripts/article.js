@@ -2,6 +2,7 @@
 
 var articles = [];
 
+// Article constructor
 function Article (rawDataObj) {
   this.author = rawDataObj.author;
   this.authorUrl = rawDataObj.authorUrl;
@@ -15,9 +16,8 @@ Article.prototype.toHtml = function() {
   // TODO: Use handlebars to render your articles.
   //       - Get your template from the DOM.
   //       - Now "compile" your template with Handlebars.
-  var template = $('#template').html();
-  var comp = Handlebars.compile(template);
-
+  var source = $('#article-template').html();
+  var comp = Handlebars.compile(source);
 
 //thisis funa;sldjfl;kakljsd
 
